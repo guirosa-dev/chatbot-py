@@ -25,26 +25,26 @@ https://youtu.be/c4OpPEJ0NhM
 
 ## Como Executar
 ### 1° - Clone o repositório
-
- - git clone https://github.com/guirosa-dev/chatbot-py
-
+```
+git clone https://github.com/guirosa-dev/chatbot-py
+```
 ### 2° - Entre na pasta do projeto
-
- - cd chatbot-py
-
+```
+cd chatbot-py
+```
 ### 3° - Instale as dependências
-
-- pip install streamlit
- - pip install google-generativeai
-
+```
+pip install streamlit
+pip install google-generativeai
+```
 ### 4° - Adicione sua chave da API do Gemini no código
-
- - genai.configure(api_key="SUA_API_KEY")
-
+```
+genai.configure(api_key="SUA_API_KEY")
+```
 ### 5° - Execute o projeto
-
- - streamlit run app.py
-
+```
+streamlit run app.py
+```
 ---
 
 ### 👤 Autor
