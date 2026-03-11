@@ -16,7 +16,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # Configura a chave da API do Google Gemini
-genai.configure(api_key="AIzaSyDtHC8ZyccpD8tbX8rTOc45eWBGfRedl3U")
+genai.configure(api_key="") # Adicionar a sua api_key
 
 modelo_ia = genai.GenerativeModel("models/gemini-2.5-flash")
 
